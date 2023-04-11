@@ -3,3 +3,25 @@
     margin: 0;
     box-sizing: border-box;
  }
+/* diamo lo stesso font family a tutto il body */
+ body{
+    font-family: 'Fredoka', sans-serif;
+ }
+/* Creiamo il container che verra usato per footer e main */
+ .container{
+    width: 1300px;
+    height: 200px;
+    margin: 0 auto; 
+    margin-bottom: 10px;
+ }
+/* Nel footer sistemiamo h1 e p */
+ footer h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(236, 59, 88);
+    margin-top: 10px;
+    margin-bottom: 30px;
+ }
+ footer p{
+    text-align: center;
+ }
